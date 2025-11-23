@@ -1,0 +1,773 @@
+{
+    "metadata": {
+        "dies_simulats": 15,
+        "data_inici": "2024-05-01"
+    },
+    "ubicacions_granges": [
+        { "id": "GRANJA_1", "lat": 41.6176, "lon": 0.6200 },
+        { "id": "GRANJA_2", "lat": 42.1420, "lon": 1.8580 },
+        { "id": "GRANJA_3", "lat": 41.6056, "lon": 2.2856 },
+        { "id": "GRANJA_4", "lat": 41.9794, "lon": 2.8214 },
+        { "id": "GRANJA_5", "lat": 41.1167, "lon": 1.25 },
+        { "id": "GRANJA_6", "lat": 41.5503, "lon": 2.1086 },
+        { "id": "GRANJA_7", "lat": 41.8031, "lon": 2.4886 },
+        { "id": "GRANJA_8", "lat": 42.2461, "lon": 1.9736 },
+        { "id": "GRANJA_9", "lat": 41.7282, "lon": 1.8239 },
+        { "id": "GRANJA_10", "lat": 41.3833, "lon": 1.1667 },
+        { "id": "GRANJA_11", "lat": 42.2667, "lon": 2.9667 },
+        { "id": "GRANJA_12", "lat": 41.6167, "lon": 2.3167 },
+        { "id": "GRANJA_13", "lat": 41.7833, "lon": 1.6167 },
+        { "id": "GRANJA_14", "lat": 41.5167, "lon": 2.3833 },
+        { "id": "GRANJA_15", "lat": 41.6167, "lon": 1.8333 },
+        { "id": "GRANJA_16", "lat": 41.6167, "lon": 0.8833 },
+        { "id": "GRANJA_17", "lat": 42.0000, "lon": 2.0000 },
+        { "id": "GRANJA_18", "lat": 41.4200, "lon": 1.5000 },
+        { "id": "GRANJA_19", "lat": 41.6167, "lon": 1.0833 },
+        { "id": "GRANJA_20", "lat": 41.6167, "lon": 2.0833 },
+        { "id": "GRANJA_21", "lat": 41.6167, "lon": 1.3833 },
+        { "id": "GRANJA_22", "lat": 41.6167, "lon": 2.25 },
+        { "id": "GRANJA_23", "lat": 41.6167, "lon": 2.3833 },
+        { "id": "GRANJA_24", "lat": 41.6167, "lon": 1.8167 },
+        { "id": "GRANJA_25", "lat": 42.0000, "lon": 1.0000 }
+    ],
+    "activitat_diaria": [
+        {
+            "dia": 1,
+            "camio_id": "T1_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_19",
+                "GRANJA_15",
+                "GRANJA_14"
+            ],
+            "detalls_parades": [
+                "GRANJA_19 (169 porcs)"
+            ],
+            "porcs_totals": 169,
+            "pes_total": 19976.965820158155,
+            "distancia_total": 152.33055794828698,
+            "temps_total": 3.9471759658047825,
+            "ingressos": 26450.88048537881,
+            "penalitzacions": 4713.18619406795,
+            "cost_viatge": 190.19389684365936
+        },
+        {
+            "dia": 1,
+            "camio_id": "T2_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_6",
+                "GRANJA_12",
+                "GRANJA_2"
+            ],
+            "detalls_parades": [
+                "GRANJA_6 (206 porcs)"
+            ],
+            "porcs_totals": 206,
+            "pes_total": 19954.177662531296,
+            "distancia_total": 209.38609956725315,
+            "temps_total": 5.214768326120886,
+            "ingressos": 26319.00316573857,
+            "penalitzacions": 4809.513987810219,
+            "cost_viatge": 261.13296442683975
+        },
+        {
+            "dia": 1,
+            "camio_id": "T3_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_22",
+                "GRANJA_11",
+                "GRANJA_8"
+            ],
+            "detalls_parades": [
+                "GRANJA_22 (174 porcs)"
+            ],
+            "porcs_totals": 174,
+            "pes_total": 19941.85560436574,
+            "distancia_total": 227.79527295437163,
+            "temps_total": 5.254921215906194,
+            "ingressos": 27338.450950073453,
+            "penalitzacions": 3770.843792737114,
+            "cost_viatge": 283.9162775383225
+        },
+        {
+            "dia": 2,
+            "camio_id": "T1_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_11",
+                "GRANJA_8",
+                "GRANJA_23"
+            ],
+            "detalls_parades": [
+                "GRANJA_11 (182 porcs)"
+            ],
+            "porcs_totals": 182,
+            "pes_total": 19899.453123769927,
+            "distancia_total": 190.0792118886357,
+            "temps_total": 4.692986864810594,
+            "ingressos": 26422.97371078883,
+            "penalitzacions": 4620.173162292266,
+            "cost_viatge": 236.40452292381482
+        },
+        {
+            "dia": 2,
+            "camio_id": "T2_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_4",
+                "GRANJA_16",
+                "GRANJA_5"
+            ],
+            "detalls_parades": [
+                "GRANJA_4 (183 porcs)"
+            ],
+            "porcs_totals": 183,
+            "pes_total": 19978.50088168657,
+            "distancia_total": 263.84019574088114,
+            "temps_total": 5.922336595681353,
+            "ingressos": 27370.323892141758,
+            "penalitzacions": 3796.137483289294,
+            "cost_viatge": 329.44572395209696
+        },
+        {
+            "dia": 2,
+            "camio_id": "T3_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_18",
+                "GRANJA_23",
+                "GRANJA_8"
+            ],
+            "detalls_parades": [
+                "GRANJA_18 (202 porcs)"
+            ],
+            "porcs_totals": 202,
+            "pes_total": 19976.64466619093,
+            "distancia_total": 145.64122994242112,
+            "temps_total": 4.110687165707018,
+            "ingressos": 25755.54265157974,
+            "penalitzacions": 5408.023027678088,
+            "cost_viatge": 181.83894370667207
+        },
+        {
+            "dia": 2,
+            "camio_id": "T3_V2",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_8",
+                "GRANJA_23"
+            ],
+            "detalls_parades": [
+                "GRANJA_8 (162 porcs)"
+            ],
+            "porcs_totals": 162,
+            "pes_total": 19901.363412955758,
+            "distancia_total": 144.3280702859284,
+            "temps_total": 3.7638011714321404,
+            "ingressos": 26809.43580701199,
+            "penalitzacions": 4236.691117199006,
+            "cost_viatge": 179.52033609068013
+        },
+        {
+            "dia": 3,
+            "camio_id": "T1_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_5",
+                "GRANJA_16",
+                "GRANJA_1"
+            ],
+            "detalls_parades": [
+                "GRANJA_5 (221 porcs)"
+            ],
+            "porcs_totals": 221,
+            "pes_total": 19927.14732848474,
+            "distancia_total": 297.17767549734674,
+            "temps_total": 6.802961258289112,
+            "ingressos": 26142.920317752207,
+            "penalitzacions": 4943.429514683969,
+            "cost_viatge": 370.11895764826613
+        },
+        {
+            "dia": 3,
+            "camio_id": "T2_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_10",
+                "GRANJA_9",
+                "GRANJA_7"
+            ],
+            "detalls_parades": [
+                "GRANJA_10 (181 porcs)"
+            ],
+            "porcs_totals": 181,
+            "pes_total": 19967.687618205502,
+            "distancia_total": 217.76107180726729,
+            "temps_total": 5.137684530121122,
+            "ingressos": 27426.555810141126,
+            "penalitzacions": 3723.036874259467,
+            "cost_viatge": 271.7615660783207
+        },
+        {
+            "dia": 3,
+            "camio_id": "T3_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_25",
+                "GRANJA_23",
+                "GRANJA_16"
+            ],
+            "detalls_parades": [
+                "GRANJA_25 (268 porcs)"
+            ],
+            "porcs_totals": 268,
+            "pes_total": 19949.197169023395,
+            "distancia_total": 234.12388198444324,
+            "temps_total": 6.143731366407388,
+            "ingressos": 24930.271481186435,
+            "penalitzacions": 6190.476102490055,
+            "cost_viatge": 291.9114677303014
+        },
+        {
+            "dia": 4,
+            "camio_id": "T1_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_23",
+                "GRANJA_16",
+                "GRANJA_1"
+            ],
+            "detalls_parades": [
+                "GRANJA_23 (166 porcs)"
+            ],
+            "porcs_totals": 166,
+            "pes_total": 19967.599110550964,
+            "distancia_total": 285.15740265171473,
+            "temps_total": 6.135956710861912,
+            "ingressos": 27207.321212235187,
+            "penalitzacions": 3942.1334002243634,
+            "cost_viatge": 355.8692937222126
+        },
+        {
+            "dia": 4,
+            "camio_id": "T2_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_15",
+                "GRANJA_14",
+                "GRANJA_20"
+            ],
+            "detalls_parades": [
+                "GRANJA_15 (206 porcs)"
+            ],
+            "porcs_totals": 206,
+            "pes_total": 19951.41259355211,
+            "distancia_total": 150.6003845416752,
+            "temps_total": 4.235006409027919,
+            "ingressos": 26402.912927628335,
+            "penalitzacions": 4721.290718312963,
+            "cost_viatge": 187.79315054616058
+        },
+        {
+            "dia": 4,
+            "camio_id": "T3_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_3",
+                "GRANJA_16",
+                "GRANJA_1"
+            ],
+            "detalls_parades": [
+                "GRANJA_3 (217 porcs)"
+            ],
+            "porcs_totals": 217,
+            "pes_total": 19978.159161487063,
+            "distancia_total": 331.4866604242242,
+            "temps_total": 7.3331110070704035,
+            "ingressos": 25575.29257262754,
+            "penalitzacions": 5590.63571929229,
+            "cost_viatge": 413.9058288665604
+        },
+        {
+            "dia": 5,
+            "camio_id": "T1_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_21",
+                "GRANJA_24",
+                "GRANJA_1"
+            ],
+            "detalls_parades": [
+                "GRANJA_21 (246 porcs)"
+            ],
+            "porcs_totals": 246,
+            "pes_total": 19998.421351556237,
+            "distancia_total": 348.42439375055017,
+            "temps_total": 7.857073229175836,
+            "ingressos": 25095.914436880106,
+            "penalitzacions": 6101.62287154762,
+            "cost_viatge": 435.4961147115025
+        },
+        {
+            "dia": 5,
+            "camio_id": "T2_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_12",
+                "GRANJA_2",
+                "GRANJA_13"
+            ],
+            "detalls_parades": [
+                "GRANJA_12 (246 porcs)"
+            ],
+            "porcs_totals": 246,
+            "pes_total": 19927.017837998465,
+            "distancia_total": 246.5067394976444,
+            "temps_total": 6.166778991627407,
+            "ingressos": 25058.0021507836,
+            "penalitzacions": 6028.145676494008,
+            "cost_viatge": 307.00901219727507
+        },
+        {
+            "dia": 5,
+            "camio_id": "T3_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_20",
+                "GRANJA_14",
+                "GRANJA_17"
+            ],
+            "detalls_parades": [
+                "GRANJA_20 (207 porcs)"
+            ],
+            "porcs_totals": 207,
+            "pes_total": 19955.411023822802,
+            "distancia_total": 204.73855126819558,
+            "temps_total": 5.145642521136593,
+            "ingressos": 26223.065105437363,
+            "penalitzacions": 4907.376091726212,
+            "cost_viatge": 255.35262143617874
+        },
+        {
+            "dia": 6,
+            "camio_id": "DESCANS",
+            "tipus_camio": null,
+            "parades": null,
+            "detalls_parades": null,
+            "porcs_totals": 0,
+            "pes_total": 0.0,
+            "distancia_total": null,
+            "temps_total": null,
+            "ingressos": 0.0,
+            "penalitzacions": 0.0,
+            "cost_viatge": 0.0
+        },
+        {
+            "dia": 7,
+            "camio_id": "DESCANS",
+            "tipus_camio": null,
+            "parades": null,
+            "detalls_parades": null,
+            "porcs_totals": 0,
+            "pes_total": 0.0,
+            "distancia_total": null,
+            "temps_total": null,
+            "ingressos": 0.0,
+            "penalitzacions": 0.0,
+            "cost_viatge": 0.0
+        },
+        {
+            "dia": 8,
+            "camio_id": "T1_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_4",
+                "GRANJA_16",
+                "GRANJA_5"
+            ],
+            "detalls_parades": [
+                "GRANJA_4 (222 porcs)"
+            ],
+            "porcs_totals": 222,
+            "pes_total": 19924.643777852623,
+            "distancia_total": 263.84019574088114,
+            "temps_total": 6.255669929014686,
+            "ingressos": 25484.346857865992,
+            "penalitzacions": 5598.0974355841,
+            "cost_viatge": 328.5576196509979
+        },
+        {
+            "dia": 8,
+            "camio_id": "T2_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_5",
+                "GRANJA_16",
+                "GRANJA_22"
+            ],
+            "detalls_parades": [
+                "GRANJA_5 (223 porcs)"
+            ],
+            "porcs_totals": 223,
+            "pes_total": 19934.630635513353,
+            "distancia_total": 249.4192741452915,
+            "temps_total": 6.023654569088192,
+            "ingressos": 25646.78023088088,
+            "penalitzacions": 5451.243560519973,
+            "cost_viatge": 310.75506896651444
+        },
+        {
+            "dia": 8,
+            "camio_id": "T3_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_6",
+                "GRANJA_12",
+                "GRANJA_2"
+            ],
+            "detalls_parades": [
+                "GRANJA_6 (178 porcs)"
+            ],
+            "porcs_totals": 178,
+            "pes_total": 19939.92688049124,
+            "distancia_total": 209.38609956725315,
+            "temps_total": 4.981434992787553,
+            "ingressos": 26376.85296811114,
+            "penalitzacions": 4729.4329654551775,
+            "cost_viatge": 260.94646969764284
+        },
+        {
+            "dia": 9,
+            "camio_id": "T1_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_10",
+                "GRANJA_9",
+                "GRANJA_7"
+            ],
+            "detalls_parades": [
+                "GRANJA_10 (194 porcs)"
+            ],
+            "porcs_totals": 194,
+            "pes_total": 19960.521330046646,
+            "distancia_total": 217.76107180726729,
+            "temps_total": 5.246017863454455,
+            "ingressos": 26663.32287072708,
+            "penalitzacions": 4475.090404145681,
+            "cost_viatge": 271.66403241642365
+        },
+        {
+            "dia": 9,
+            "camio_id": "T2_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_8",
+                "GRANJA_23",
+                "GRANJA_25"
+            ],
+            "detalls_parades": [
+                "GRANJA_8 (200 porcs)",
+                "GRANJA_25 (1 porcs)"
+            ],
+            "porcs_totals": 201,
+            "pes_total": 19986.77508533649,
+            "distancia_total": 163.92875749538058,
+            "temps_total": 4.4071459582563435,
+            "ingressos": 27500.81364663322,
+            "penalitzacions": 3678.5554864917035,
+            "cost_viatge": 204.77545037992746
+        },
+        {
+            "dia": 9,
+            "camio_id": "T3_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_11",
+                "GRANJA_22",
+                "GRANJA_16"
+            ],
+            "detalls_parades": [
+                "GRANJA_11 (169 porcs)",
+                "GRANJA_22 (1 porcs)"
+            ],
+            "porcs_totals": 170,
+            "pes_total": 19997.16023211336,
+            "distancia_total": 240.3911888320108,
+            "temps_total": 5.423186480533514,
+            "ingressos": 27300.741867737273,
+            "penalitzacions": 3894.8280943595532,
+            "cost_viatge": 300.44632009137126
+        },
+        {
+            "dia": 10,
+            "camio_id": "T1_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_3",
+                "GRANJA_18",
+                "GRANJA_23"
+            ],
+            "detalls_parades": [
+                "GRANJA_3 (250 porcs)"
+            ],
+            "porcs_totals": 250,
+            "pes_total": 19998.24762198154,
+            "distancia_total": 211.55641750560756,
+            "temps_total": 5.60927362509346,
+            "ingressos": 25209.581561406856,
+            "penalitzacions": 5987.684728884343,
+            "cost_viatge": 264.4223514560281
+        },
+        {
+            "dia": 10,
+            "camio_id": "T2_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_12",
+                "GRANJA_2",
+                "GRANJA_13"
+            ],
+            "detalls_parades": [
+                "GRANJA_12 (186 porcs)"
+            ],
+            "porcs_totals": 186,
+            "pes_total": 19956.008980951006,
+            "distancia_total": 246.5067394976444,
+            "temps_total": 5.666778991627407,
+            "ingressos": 27143.37474844629,
+            "penalitzacions": 3987.9992618373144,
+            "cost_viatge": 307.45566920499635
+        },
+        {
+            "dia": 10,
+            "camio_id": "T3_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_15",
+                "GRANJA_14",
+                "GRANJA_20"
+            ],
+            "detalls_parades": [
+                "GRANJA_15 (186 porcs)"
+            ],
+            "porcs_totals": 186,
+            "pes_total": 19964.27996483828,
+            "distancia_total": 150.6003845416752,
+            "temps_total": 4.068339742361253,
+            "ingressos": 26789.17113591665,
+            "penalitzacions": 4355.105609231082,
+            "cost_viatge": 187.91426498764417
+        },
+        {
+            "dia": 11,
+            "camio_id": "T1_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_24",
+                "GRANJA_21",
+                "GRANJA_1"
+            ],
+            "detalls_parades": [
+                "GRANJA_24 (190 porcs)"
+            ],
+            "porcs_totals": 190,
+            "pes_total": 19964.765342540508,
+            "distancia_total": 320.9507059041772,
+            "temps_total": 6.93251176506962,
+            "ingressos": 26997.02931185543,
+            "penalitzacions": 4148.004622507749,
+            "cost_viatge": 400.4815956187267
+        },
+        {
+            "dia": 11,
+            "camio_id": "T2_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_20",
+                "GRANJA_14",
+                "GRANJA_17"
+            ],
+            "detalls_parades": [
+                "GRANJA_20 (215 porcs)"
+            ],
+            "porcs_totals": 215,
+            "pes_total": 19996.72997047214,
+            "distancia_total": 204.73855126819558,
+            "temps_total": 5.203975854469927,
+            "ingressos": 26349.385673271205,
+            "penalitzacions": 4845.513080665323,
+            "cost_viatge": 255.88134526598583
+        },
+        {
+            "dia": 11,
+            "camio_id": "T3_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_13",
+                "GRANJA_2",
+                "GRANJA_9"
+            ],
+            "detalls_parades": [
+                "GRANJA_13 (162 porcs)"
+            ],
+            "porcs_totals": 162,
+            "pes_total": 19928.621327204437,
+            "distancia_total": 252.73812445225428,
+            "temps_total": 5.570635407537572,
+            "ingressos": 26650.144195093108,
+            "penalitzacions": 4438.505075345819,
+            "cost_viatge": 314.79514857230276
+        },
+        {
+            "dia": 12,
+            "camio_id": "T1_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_7",
+                "GRANJA_9",
+                "GRANJA_2"
+            ],
+            "detalls_parades": [
+                "GRANJA_7 (185 porcs)"
+            ],
+            "porcs_totals": 185,
+            "pes_total": 19966.48643995457,
+            "distancia_total": 239.25332336243568,
+            "temps_total": 5.529222056040595,
+            "ingressos": 27053.176339397636,
+            "penalitzacions": 4094.54250693149,
+            "cost_viatge": 298.5655147893836
+        },
+        {
+            "dia": 12,
+            "camio_id": "T2_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_16",
+                "GRANJA_1",
+                "GRANJA_21"
+            ],
+            "detalls_parades": [
+                "GRANJA_16 (195 porcs)"
+            ],
+            "porcs_totals": 195,
+            "pes_total": 19941.77909876797,
+            "distancia_total": 314.3106132771144,
+            "temps_total": 6.871843554618573,
+            "ingressos": 26590.198879246076,
+            "penalitzacions": 4518.976514831965,
+            "cost_viatge": 391.7445511481564
+        },
+        {
+            "dia": 12,
+            "camio_id": "T3_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_17",
+                "GRANJA_14",
+                "GRANJA_19"
+            ],
+            "detalls_parades": [
+                "GRANJA_17 (245 porcs)"
+            ],
+            "porcs_totals": 245,
+            "pes_total": 19966.18005290045,
+            "distancia_total": 211.20792615455477,
+            "temps_total": 5.570132102575913,
+            "ingressos": 25064.829270969956,
+            "penalitzacions": 6082.411611554767,
+            "cost_viatge": 263.56346763759643
+        },
+        {
+            "dia": 13,
+            "camio_id": "DESCANS",
+            "tipus_camio": null,
+            "parades": null,
+            "detalls_parades": null,
+            "porcs_totals": 0,
+            "pes_total": 0.0,
+            "distancia_total": null,
+            "temps_total": null,
+            "ingressos": 0.0,
+            "penalitzacions": 0.0,
+            "cost_viatge": 0.0
+        },
+        {
+            "dia": 14,
+            "camio_id": "DESCANS",
+            "tipus_camio": null,
+            "parades": null,
+            "detalls_parades": null,
+            "porcs_totals": 0,
+            "pes_total": 0.0,
+            "distancia_total": null,
+            "temps_total": null,
+            "ingressos": 0.0,
+            "penalitzacions": 0.0,
+            "cost_viatge": 0.0
+        },
+        {
+            "dia": 15,
+            "camio_id": "T1_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_3",
+                "GRANJA_25",
+                "GRANJA_23"
+            ],
+            "detalls_parades": [
+                "GRANJA_3 (195 porcs)"
+            ],
+            "porcs_totals": 195,
+            "pes_total": 19960.616446841334,
+            "distancia_total": 197.03637020916113,
+            "temps_total": 4.917272836819352,
+            "ingressos": 26316.755389728078,
+            "penalitzacions": 4821.806267344417,
+            "cost_viatge": 245.8104632389312
+        },
+        {
+            "dia": 15,
+            "camio_id": "T2_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_4",
+                "GRANJA_16",
+                "GRANJA_5"
+            ],
+            "detalls_parades": [
+                "GRANJA_4 (208 porcs)",
+                "GRANJA_16 (1 porcs)"
+            ],
+            "porcs_totals": 209,
+            "pes_total": 19944.657586221958,
+            "distancia_total": 263.84019574088114,
+            "temps_total": 6.1390032623480195,
+            "ingressos": 24890.932667604993,
+            "penalitzacions": 6222.733166901248,
+            "cost_viatge": 328.88764759585325
+        },
+        {
+            "dia": 15,
+            "camio_id": "T3_V1",
+            "tipus_camio": "GRAN",
+            "parades": [
+                "GRANJA_5",
+                "GRANJA_25",
+                "GRANJA_23"
+            ],
+            "detalls_parades": [
+                "GRANJA_5 (199 porcs)"
+            ],
+            "porcs_totals": 199,
+            "pes_total": 19950.51649268598,
+            "distancia_total": 217.07483096827485,
+            "temps_total": 5.284580516137915,
+            "ingressos": 24898.244582872125,
+            "penalitzacions": 6224.561145718031,
+            "cost_viatge": 270.6721872112243
+        }
+    ]
+}
